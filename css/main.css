@@ -316,6 +316,12 @@ h1 {
   margin-bottom: 10rem;
   color: #212529;
 }
+@media (max-width: 992px) {
+  .sponsor .col-3 {
+    width: 100% !important;
+    margin-bottom: 5rem;
+  }
+}
 
 .apps {
   background-color: #043873;
@@ -433,6 +439,107 @@ h1 {
 .trial .btn-div img {
   width: 26rem;
   height: 6rem;
+}
+
+.footer-sec {
+  background-color: #043873;
+  padding: 14rem 0 3.2rem 0;
+}
+.footer-sec .info {
+  padding-bottom: 6.7rem;
+  border-bottom: 1px solid #2E4E73;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+@media (max-width: 992px) {
+  .footer-sec .info {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .footer-sec .info .col-lg-12 {
+    margin-bottom: 5rem;
+  }
+}
+.footer-sec .info .logo {
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.footer-sec .info .logo img {
+  margin-right: 1rem;
+}
+.footer-sec .info .logo .logo-name {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.footer-sec .info .logo-info {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #F7F7EE;
+}
+.footer-sec .info h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.footer-sec .info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-sec .info ul li a {
+  text-decoration: none;
+  color: #FFE492;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.footer-sec .info ul li a.yellow {
+  color: #FFE492;
+}
+.footer-sec .info .try {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.footer-sec .info .try h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 2.3rem;
+}
+.footer-sec .info .try p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 2.3rem;
+}
+.footer-sec .info .try .row {
+  justify-content: start;
+}
+@media (max-width: 992px) {
+  .footer-sec .info .try .row {
+    justify-content: center;
+  }
+}
+.footer-sec .btm a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
 
 .btn {
