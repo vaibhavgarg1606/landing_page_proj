@@ -76,11 +76,23 @@ h1 {
   letter-spacing: -0.02em;
   padding-bottom: 2rem;
 }
+@media (max-width: 1200px) {
+  .hero .left h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}
 .hero .left p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 6rem;
+}
+@media (max-width: 1200px) {
+  .hero .left p {
+    text-align: center;
+  }
 }
 
 .work {
@@ -105,11 +117,23 @@ h1 {
   line-height: 87px;
   margin-bottom: 2rem;
 }
+@media (max-width: 1200px) {
+  .work .row .left h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}
 .work .row .left p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 6rem;
+}
+@media (max-width: 1200px) {
+  .work .row .left p {
+    text-align: center;
+  }
 }
 
 .extension {
@@ -128,11 +152,23 @@ h1 {
   line-height: 87px;
   padding-bottom: 2.4rem;
 }
+@media (max-width: 1200px) {
+  .extension .left h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}
 .extension .left p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 6rem;
+}
+@media (max-width: 1200px) {
+  .extension .left p {
+    text-align: center;
+  }
 }
 
 .customize {
@@ -148,11 +184,23 @@ h1 {
   line-height: 87px;
   margin-bottom: 2rem;
 }
+@media (max-width: 1200px) {
+  .customize .left h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}
 .customize .left p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 6rem;
+}
+@media (max-width: 1200px) {
+  .customize .left p {
+    text-align: center;
+  }
 }
 
 .pricing {
@@ -170,10 +218,22 @@ h1 {
   font-size: 72px;
   line-height: 87px;
 }
+@media (max-width: 1200px) {
+  .pricing .main-title h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}
 .pricing .main-title p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+}
+@media (max-width: 1200px) {
+  .pricing .main-title p {
+    text-align: center;
+  }
 }
 .pricing .price-list .card {
   display: flex;
@@ -268,6 +328,12 @@ h1 {
   color: #FFFFFF;
   margin-bottom: 2.4rem;
 }
+@media (max-width: 1200px) {
+  .your-work h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
 .your-work p {
   font-weight: 400;
   font-size: 18px;
@@ -295,11 +361,23 @@ h1 {
   line-height: 87px;
   padding-bottom: 2.4rem;
 }
+@media (max-width: 1200px) {
+  .data .left h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}
 .data .left p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 6rem;
+}
+@media (max-width: 1200px) {
+  .data .left p {
+    text-align: center;
+  }
 }
 
 .sponsor {
@@ -316,7 +394,7 @@ h1 {
   margin-bottom: 10rem;
   color: #212529;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .sponsor .col-3 {
     width: 100% !important;
     margin-bottom: 5rem;
@@ -340,12 +418,24 @@ h1 {
   color: #FFFFFF;
   margin-bottom: 2.4rem;
 }
+@media (max-width: 1200px) {
+  .apps h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}
 .apps p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #FFFFFF;
   margin-bottom: 6rem;
+}
+@media (max-width: 1200px) {
+  .apps p {
+    text-align: center;
+  }
 }
 
 .testimonial {
@@ -360,6 +450,13 @@ h1 {
   font-weight: 700;
   font-size: 70px;
   line-height: 84px;
+}
+@media (max-width: 1200px) {
+  .testimonial h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
 }
 .testimonial .card {
   display: flex;
@@ -419,6 +516,12 @@ h1 {
   line-height: 87px;
   color: #FFFFFF;
   margin-bottom: 2.4rem;
+}
+@media (max-width: 1200px) {
+  .trial h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
 }
 .trial p {
   font-weight: 400;

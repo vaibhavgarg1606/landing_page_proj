@@ -56,6 +56,9 @@ h1{
 }
 
 
+
+
+
 .custom-nav{
 
     background-color: $main-bg-color !important;
@@ -138,11 +141,23 @@ h1{
 
             padding-bottom: 2rem;
 
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
+
+
         }
         p{
             font-weight: $regular;
             font-size: 18px;
             line-height: 30px;
+
+            @media (max-width: $xl){
+                text-align: center;
+            }
 
             padding-bottom: 6rem;
         }
@@ -150,6 +165,9 @@ h1{
 
 
 }
+
+
+
 
 
 .work{
@@ -181,6 +199,14 @@ h1{
                 font-size: 72px;
                 line-height: 87px;
 
+                @media (max-width: $xl){
+                    font-size: 36px;
+                    line-height: 44px;
+                    text-align: center;
+    
+                }
+    
+
                 margin-bottom: 2rem;
 
             }
@@ -189,6 +215,10 @@ h1{
                 font-weight: $regular;
                 font-size: 18px;
                 line-height: 30px;
+
+                @media (max-width: $xl){
+                    text-align: center;
+                }
 
                 margin-bottom: 6rem;
 
@@ -223,6 +253,12 @@ h1{
             
             padding-bottom: 2.4rem;
 
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
 
         }
         p{
@@ -231,6 +267,14 @@ h1{
             line-height: 30px;
 
             padding-bottom: 6rem;
+
+
+            @media (max-width: $xl){
+               text-align: center;
+
+            }
+
+
         }
     }
 
@@ -261,6 +305,12 @@ h1{
 
             margin-bottom: 2rem;
 
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
 
         }
         p{
@@ -270,6 +320,11 @@ h1{
             line-height: 30px;
 
             margin-bottom: 6rem;
+
+            @media (max-width: $xl){
+                text-align: center;
+
+            }
 
         }
 
@@ -298,12 +353,24 @@ h1{
             font-size: 72px;
             line-height: 87px;
 
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
+
         }
 
         p{
             font-weight: $regular;
             font-size: 18px;
             line-height: 30px;
+
+            @media (max-width: $xl){
+                text-align: center;
+
+            }
 
         }
             
@@ -464,6 +531,12 @@ h1{
 
         margin-bottom: 2.4rem;
 
+        @media (max-width: $xl){
+            font-size: 36px;
+            line-height: 44px;
+
+        }
+
     }
 
     p{
@@ -474,6 +547,7 @@ h1{
         color: #FFFFFF;
 
         margin-bottom: 6rem;
+        
 
     }
 
@@ -506,6 +580,12 @@ h1{
             
             padding-bottom: 2.4rem;
 
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
 
         }
         p{
@@ -514,6 +594,10 @@ h1{
             line-height: 30px;
 
             padding-bottom: 6rem;
+            @media (max-width: $xl){
+                text-align: center;
+
+            }
         }
     }
 
@@ -542,7 +626,7 @@ h1{
 
 
     .col-3{
-        @media (max-width: $lg) {
+        @media (max-width: $xl) {
             width: 100% !important;
             margin-bottom: 5rem;
         }
@@ -573,6 +657,14 @@ h1{
 
         margin-bottom: 2.4rem;
 
+        
+        @media (max-width: $xl){
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+
+        }
+
     }
 
     p{
@@ -583,6 +675,12 @@ h1{
         color: #FFFFFF;
 
         margin-bottom: 6rem;
+
+        
+        @media (max-width: $xl){
+            text-align: center;
+
+        }
 
     }
 
@@ -605,6 +703,14 @@ h1{
         font-weight: $Bold;
         font-size: 70px;
         line-height: 84px;
+
+        
+        @media (max-width: $xl){
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+
+        }
 
     }
 
@@ -708,6 +814,12 @@ h1{
         color: #FFFFFF;
 
         margin-bottom: 2.4rem;
+
+        
+        @media (max-width: $xl){
+            font-size: 36px;
+            line-height: 44px;
+        }
     }
 
     p{
