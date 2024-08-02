@@ -1,0 +1,66 @@
+@import "__variable";
+
+
+
+
+
+
+
+.work{
+    background-color: #FFFFFF;
+    padding: 14rem 0 14rem 0;
+    
+
+    
+    background-image: url(../image/work-bg.svg);
+    background-repeat: no-repeat;
+    background-position: start;
+
+    
+    font-family: $font-family;
+    font-style: normal;
+    color: #212529;
+    
+    .row{
+        &:first-child{
+            padding-bottom: 10rem;
+        }
+
+        .left{
+            padding: 2rem 0 2rem 0;
+
+
+            h1{                
+                font-weight: $Bold;
+                font-size: 72px;
+                line-height: 87px;
+
+                @media (max-width: $xl){
+                    font-size: 36px;
+                    line-height: 44px;
+                    text-align: center;
+    
+                }
+    
+
+                margin-bottom: 2rem;
+
+            }
+            p{
+                
+                font-weight: $regular;
+                font-size: 18px;
+                line-height: 30px;
+
+                @media (max-width: $xl){
+                    text-align: center;
+                }
+
+                margin-bottom: 6rem;
+
+            }
+
+        }
+
+    }
+}

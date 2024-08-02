@@ -1,0 +1,56 @@
+@import "__variable";
+
+
+
+
+
+.apps{
+    background-color: $main-bg-color;
+    padding: 14rem 0 14rem 0;
+
+    background-image: url("../image/apps-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-family: $font-family;
+    font-style: normal;
+
+    h1{
+        font-weight: $Bold;
+        font-size: 72px;
+        line-height: 87px;
+
+        color: #FFFFFF;
+
+        margin-bottom: 2.4rem;
+
+        
+        @media (max-width: $xl){
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+
+        }
+
+    }
+
+    p{
+        font-weight: $regular;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+
+        margin-bottom: 6rem;
+
+        
+        @media (max-width: $xl){
+            text-align: center;
+
+        }
+
+    }
+
+    
+}

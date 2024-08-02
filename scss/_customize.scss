@@ -1,0 +1,54 @@
+@import "__variable";
+
+
+
+
+.customize{
+    background-color: #FFFFFF;
+    padding: 14rem 0 14rem 0;
+    
+
+    
+    font-family: $font-family;
+    font-style: normal;
+    color: #212529;
+    
+    
+
+    .left{
+
+
+        h1{                
+            font-weight: $Bold;
+            font-size: 72px;
+            line-height: 87px;
+
+            margin-bottom: 2rem;
+
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
+
+        }
+        p{
+            
+            font-weight: $regular;
+            font-size: 18px;
+            line-height: 30px;
+
+            margin-bottom: 6rem;
+
+            @media (max-width: $xl){
+                text-align: center;
+
+            }
+
+        }
+
+    }
+
+
+}

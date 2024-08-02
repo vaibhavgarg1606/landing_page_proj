@@ -1,0 +1,57 @@
+@import "__variable";
+
+
+.custom-nav{
+
+    background-color: $main-bg-color !important;
+
+    .logo{
+
+        display: flex;
+        align-items: center;
+
+        img{
+            margin-right: 1em;
+        }
+
+        .navbar-brand{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 34px;
+
+            color: #FFFFFF;
+
+        }
+    }
+
+    .custom-navbar-nav{
+        li{ 
+            a{
+                    
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+
+                color: #FFFFFF !important;
+
+                overflow: hidden;
+                white-space: nowrap; 
+        
+
+
+                &::after{
+                    content: url("../image/Down Arrow.svg");
+                    vertical-align: middle;
+                }
+
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,56 @@
+@import "__variable";
+
+
+
+.extension{
+    background: $main-bg-color;
+    padding: 14rem 0 14rem 0;
+
+
+
+
+    .left{
+
+        padding: 9.2rem 0 9.2rem 0;
+
+        font-family: $font-family;
+        font-style: normal;
+
+        
+        color: #FFFFFF;
+
+        h1{
+            font-weight: $Bold;
+            font-size: 72px;
+            line-height: 87px;
+            
+            padding-bottom: 2.4rem;
+
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
+
+        }
+        p{
+            font-weight: $regular;
+            font-size: 18px;
+            line-height: 30px;
+
+            padding-bottom: 6rem;
+
+
+            @media (max-width: $xl){
+               text-align: center;
+
+            }
+
+
+        }
+    }
+
+    
+
+}

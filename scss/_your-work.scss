@@ -1,0 +1,57 @@
+@import "__variable";
+
+
+
+
+.your-work{
+    background-color: $main-bg-color;
+    padding: 14rem 0 14rem 0;
+
+
+    background-image: url("../image/your-work-bg.svg");
+    background-position: start;
+    background-repeat: no-repeat;
+    
+
+    text-align: center;
+    font-family: $font-family;
+    font-style: normal;
+
+    
+
+
+    h1{
+        font-weight: $Bold;
+        font-size: 72px;
+        line-height: 87px;
+
+        color: #FFFFFF;
+
+        margin-bottom: 2.4rem;
+
+        @media (max-width: $xl){
+            font-size: 36px;
+            line-height: 44px;
+
+        }
+
+    }
+
+    p{
+        font-weight: $regular;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+
+        margin-bottom: 6rem;
+        
+
+    }
+
+    .btn{
+        align-self: center;
+    }
+
+
+}

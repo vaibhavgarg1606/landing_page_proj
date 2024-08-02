@@ -1,0 +1,66 @@
+@import "__variable";
+
+
+
+.trial{
+    background-color: $main-bg-color;
+    padding: 14rem 0 14rem 0;
+
+    text-align: center;
+
+
+    font-family: $font-family;
+    font-style: normal;
+
+    h1{
+
+        font-weight: $Bold;
+        font-size: 72px;
+        line-height: 87px;
+
+        color: #FFFFFF;
+
+        margin-bottom: 2.4rem;
+
+        
+        @media (max-width: $xl){
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+
+    p{
+        font-weight: $regular;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #FFFFFF;
+
+        margin-bottom: 4rem;
+
+    }
+
+    .btn-div{
+
+        .btn{
+            margin-bottom: 4rem;
+        }
+
+        p{
+            font-weight: $regular;
+            font-size: 24px;
+            line-height: 32px;
+
+            color: #FFFFFF;
+
+
+        }
+
+        img{
+            width: 26rem;
+            height: 6rem;
+        }
+
+    }
+
+}

@@ -1,0 +1,55 @@
+@import "__variable";
+
+
+
+.hero{
+    background: $main-bg-color;
+    padding: 14rem 0 14rem 0;
+
+    background-image: url(../image/hero-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .left{
+
+        padding: 9.4rem 0 9.4rem 0;
+
+        font-family: $font-family;
+        font-style: normal;
+
+        
+        color: #FFFFFF;
+
+        h1{
+            font-weight: $Bold;
+            font-size: 64px;
+            line-height: 77px;
+            letter-spacing: -0.02em;
+
+            padding-bottom: 2rem;
+
+            @media (max-width: $xl){
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+
+            }
+
+
+        }
+        p{
+            font-weight: $regular;
+            font-size: 18px;
+            line-height: 30px;
+
+            @media (max-width: $xl){
+                text-align: center;
+            }
+
+            padding-bottom: 6rem;
+        }
+    }
+
+
+}

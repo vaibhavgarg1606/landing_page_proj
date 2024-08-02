@@ -1,0 +1,35 @@
+@import "__variable";
+
+
+
+
+.sponsor{
+    
+    background-color: #FFFFFF;
+
+    padding: 14rem 0 14rem 0;
+
+    h1{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: $Bold;
+        font-size: 72px;
+        line-height: 87px;
+        text-align: center;
+
+        margin-bottom: 10rem;
+
+        color: #212529;
+
+    }
+
+
+    .col-3{
+        @media (max-width: $xl) {
+            width: 100% !important;
+            margin-bottom: 5rem;
+        }
+    }
+        
+
+}

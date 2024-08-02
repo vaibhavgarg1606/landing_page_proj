@@ -1,0 +1,66 @@
+@import "__variable";
+
+
+
+
+
+.btn{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 2.4rem;
+    gap: 10px;
+
+
+    background: $color-blue-btn;
+    border-radius: 8px;
+
+
+    
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $Medium;
+    font-size: 18px;
+    line-height: 23px;
+
+
+    &.btn-login{
+        background: #FFE492;
+
+        padding: 1.6rem 4rem;
+
+        color: #043873;
+
+
+    }
+
+    &.btn-blue{
+        color: #FFFFFF;
+
+        
+        &::after{
+            content: url("../image/side\ arrow.svg");
+        }
+
+    }
+
+    &.btn-blue-no-sign{
+        color: #FFFFFF;
+    }
+
+
+
+    &.hollow-yellow{
+
+        background: #FFFFFF;
+        border: 1px solid #FFE492;
+        border-radius: 8px;
+
+    }
+
+
+}
