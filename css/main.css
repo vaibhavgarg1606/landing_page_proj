@@ -722,4 +722,84 @@ h1 {
   background: #FFFFFF;
   border: 1px solid #FFE492;
   border-radius: 8px;
+}
+
+.slide-in-anim-left {
+  margin-left: -150px;
+  animation-name: slide-in;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: contain;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: -150px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.slide-in-anim-right {
+  margin-right: -150px;
+  animation-name: slide-in-right;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: contain;
+}
+
+@keyframes slide-in-right {
+  from {
+    margin-right: -150px;
+  }
+  to {
+    margin-right: 0px;
+  }
+}
+.zoom-in-anim {
+  scale: 0.8;
+  animation-name: zoom_key;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: cover;
+}
+
+@keyframes zoom_key {
+  to {
+    scale: 1;
+  }
+}
+.zoom-in-2-anim {
+  scale: 0.6;
+  animation-name: zoom_key;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: contain;
+}
+
+.slide-in-anim-top {
+  margin-top: -150px;
+  animation-name: slide-in-top;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: contain;
+}
+
+@keyframes slide-in-top {
+  to {
+    margin-top: 0px;
+  }
+}
+.slide-in-anim-bottom {
+  margin-top: 150px;
+  animation-name: slide-in-bottom;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: contain;
+}
+
+@keyframes slide-in-bottom {
+  to {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=main.css.map */
