@@ -46,11 +46,13 @@ h1{
 
 
 
-.slide-in-anim-left{
+.slide-in-anim-lg-left{
 
-    margin-left: -150px;
-
-    animation-name: slide-in;
+    
+    @media screen and (min-width: $lg){
+        margin-left: -150px;
+        animation-name: slide-in;
+    }
     animation-fill-mode: forwards;
     animation-timeline: view();
     animation-range: contain;
@@ -67,12 +69,14 @@ h1{
 }
 
 
-
 .slide-in-anim-right{
 
-    margin-right: -150px;
+    @media screen and (min-width: $lg) {
+        margin-right: -150px;
+        animation-name: slide-in-right;
+    }
 
-    animation-name: slide-in-right;
+    
     animation-fill-mode: forwards;
     animation-timeline: view();
     animation-range: contain;
@@ -106,6 +110,23 @@ h1{
     }    
 }
 
+
+.zoom-in-md-anim{
+
+    
+    @media screen and (max-width: $md) {
+        scale: 0.8;
+        animation-name: zoom_key;
+    }
+
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: cover;
+
+
+}
+
+
 .zoom-in-2-anim{
 
     scale: 0.6;
@@ -131,6 +152,8 @@ h1{
     animation-timeline: view();
     animation-range: contain;
 }
+
+
 
 
 @keyframes slide-in-top{

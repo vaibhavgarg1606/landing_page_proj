@@ -712,6 +712,11 @@ h1 {
 .btn.btn-blue {
   color: #FFFFFF;
 }
+@media (max-width: 768px) {
+  .btn.btn-blue {
+    font-size: 12px;
+  }
+}
 .btn.btn-blue::after {
   content: url("../image/side arrow.svg");
 }
@@ -724,12 +729,16 @@ h1 {
   border-radius: 8px;
 }
 
-.slide-in-anim-left {
-  margin-left: -150px;
-  animation-name: slide-in;
+.slide-in-anim-lg-left {
   animation-fill-mode: forwards;
   animation-timeline: view();
   animation-range: contain;
+}
+@media screen and (min-width: 992px) {
+  .slide-in-anim-lg-left {
+    margin-left: -150px;
+    animation-name: slide-in;
+  }
 }
 
 @keyframes slide-in {
@@ -741,11 +750,15 @@ h1 {
   }
 }
 .slide-in-anim-right {
-  margin-right: -150px;
-  animation-name: slide-in-right;
   animation-fill-mode: forwards;
   animation-timeline: view();
   animation-range: contain;
+}
+@media screen and (min-width: 992px) {
+  .slide-in-anim-right {
+    margin-right: -150px;
+    animation-name: slide-in-right;
+  }
 }
 
 @keyframes slide-in-right {
@@ -769,6 +782,18 @@ h1 {
     scale: 1;
   }
 }
+.zoom-in-md-anim {
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: cover;
+}
+@media screen and (max-width: 768px) {
+  .zoom-in-md-anim {
+    scale: 0.8;
+    animation-name: zoom_key;
+  }
+}
+
 .zoom-in-2-anim {
   scale: 0.6;
   animation-name: zoom_key;

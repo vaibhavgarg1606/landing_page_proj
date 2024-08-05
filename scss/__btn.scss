@@ -40,8 +40,12 @@
 
     &.btn-blue{
         color: #FFFFFF;
-
         
+
+        @media (max-width: $md){
+            font-size: 12px;
+        }
+
         &::after{
             content: url("../image/side\ arrow.svg");
         }
